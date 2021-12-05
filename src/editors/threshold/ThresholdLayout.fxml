@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+
+<GridPane alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="editors.threshold.ThresholdEditorController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0"/>
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" vgrow="SOMETIMES"/>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES"/>
+   </rowConstraints>
+   <ImageView fx:id="imgView" fitHeight="960" fitWidth="1300" focusTraversable="true" pickOnBounds="true"
+              preserveRatio="true"/>
+   <Button fx:id="btnSave" mnemonicParsing="false" text="save" GridPane.rowIndex="1"/>
+</GridPane>
